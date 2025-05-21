@@ -1,0 +1,186 @@
+
+ul.navbar-nav>li>a {
+    letter-spacing:  0.2rem;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-nav .nav-link {
+    padding: 10px 15px;
+    font-size: 20px;
+    transition: .5s;
+}
+.navbar-nav .nav-item {
+    margin: 0 12px; /* Razmak između stavki menija */
+}
+.navbar{
+    background-color: #013220
+}
+
+.nav-link{
+    color: #FFD700 !important;
+    font-weight: bold;
+    
+}
+
+.nav-link:hover{
+    
+    color: #cfcbd6!important;
+}
+
+#carouselExampleCaptions .carousel-item img {
+    width: 100%; /* Širina slike da bude 100% širine roditelja */
+    height: 750px; /* Postavi željenu visinu za slike (prilagodi prema potrebi) */
+    object-fit: cover; /* Zadržava odnos stranica slike, ali je urezuje ako je potrebno */
+}
+
+#carouselExampleCaptions .carousel-item {
+    height: 750px; /* Postavi visinu svih slajdova na istu vrednost */
+}
+
+
+
+
+/*FITNESS OPREMA POCETAK*/
+
+.bg-dark-green {
+    background: linear-gradient(to bottom, #0D1B2A, #E0E0E0);
+}
+
+.text-gold {
+    color: #FFD700; /* Zlatna boja za tekst */
+}
+
+.btn-gold {
+    background-color: #1c03ff; /* Zlatna boja pozadine */
+    color: #ffffff; /* Tamno zelena boja za tekst */
+    border: 1px solid #000000; /* Zlatni okvir oko dugmeta */
+    border-radius: 8px; /* Zaobljeni ivici dugmeta */
+    padding: 12px 24px; /* Veća udaljenost između teksta i ivica dugmeta */
+    font-size: 18px; /* Veći font za bolju čitljivost */
+    font-weight: bold; /* Boldovan tekst za naglašavanje */
+    text-transform: uppercase; /* Sva slova velika za veći vizualni efekat */
+    transition: all 0.3s ease; /* Glatka animacija prilikom hover efekta */
+}
+.btn-gold:hover {
+    background-color: #ffffff; /* Tamnija zelena pri hoveru */
+    color: #3700ff; /* Bele boje teksta pri hoveru */
+    border-color: #000000; /* Tamniji zeleni okvir pri hoveru */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Efekat senke pri hoveru */
+}
+
+
+
+
+
+
+
+/*ZAJEDNICA*/
+
+.btn-dark-green {
+    background-color: #1c03ff; /* Zlatna boja pozadine */
+    color: #ffffff; /* Zlatna boja za tekst */
+    border: 1px solid #000000; /* Tamno zeleni okvir */
+    border-radius: 15px; /* Zaobljeni ivici dugmeta */
+    padding: 12px 30px; /* Povećana udaljenost između teksta i ivica dugmeta */
+    font-size: 18px; /* Srednja veličina fonta */
+    font-weight: bold; /* Boldovan tekst */
+    text-transform: uppercase; /* Velika slova */
+    transition: all 0.3s ease; /* Glatka animacija za hover efekat */
+    display: inline-block; /* Omogućava centriranje dugmeta */
+}
+
+.btn-dark-green:hover {
+    background-color: #ffffff; /* Tamnija zelena pri hoveru */
+    color: #3700ff; /* Bele boje teksta pri hoveru */
+    border-color: #000000; /* Tamniji zeleni okvir pri hoveru */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Efekat senke pri hoveru */
+}
+
+
+
+
+
+
+
+
+/*GRUPNI TRENINZI*/
+
+.hero {
+    background: url('img/grtreninzi2.jpg') center/cover no-repeat;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.hero h1 {
+    font-size: 3rem;
+}
+.images img {
+    transition: transform 0.3s ease;
+}
+.images img:hover {
+    transform: scale(1.25);
+}
+
+.btn-dark-green2 {
+    background-color: #1c03ff; /* Tamno zelena boja */
+    color: #ffffff; /* Zlatna boja za tekst */
+    border: 1px solid #000000; /* Tamno zeleni okvir */
+    border-radius: 8px; /* Zaobljeni ivici dugmeta */
+    padding: 12px 30px; /* Povećana udaljenost između teksta i ivica dugmeta */
+    font-size: 18px; /* Srednja veličina fonta */
+    font-weight: bold; /* Boldovan tekst */
+    text-transform: uppercase; /* Velika slova */
+    transition: all 0.3s ease; /* Glatka animacija za hover efekat */
+    display: inline-block; /* Omogućava centriranje dugmeta */
+}
+
+.btn-dark-green2:hover {
+    background-color: #ffffff; /* Tamnija zelena pri hoveru */
+    color: #3700ff; /* Bele boje teksta pri hoveru */
+    border-color: #000000; /* Tamniji zeleni okvir pri hoveru */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Efekat senke pri hoveru */
+}
+
+
+
+/*IND. TRENINZI*/
+
+
+.hero2 {
+    background: url('img/intreninzi2.jpg') center/cover no-repeat;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.hero2 h1 {
+    font-size: 3rem;
+}
+.images img {
+    transition: transform 0.3s ease;
+}
+.images img:hover {
+    transform: scale(1.25);
+}
+
+
+
+/*GALERIJA*/
+
+/*stavio sam klasu cards , jer je ona samo za gallery stranicu da se ne podudaraju sa ostalim (card klasama)*/
+
+.cards img {
+    transition: transform 0.3s ease;
+    border-radius: 8px; /* Zaobljeni uglovi */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cards img:hover {
+    transform: scale(1.1); /* Blago povećanje slike */
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2); /*bolja senka prilikom havera*/
+}
